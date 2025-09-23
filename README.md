@@ -196,64 +196,54 @@ Bottom line: the map is a mirror for customer mix and experience, not a map of t
 
 ## ✅ Recommendations
 1) Shift the contract mix (highest impact)
-
-Who: Month-to-Month customers, especially in first 6–12 months.
-What: Targeted nudges to 1-year terms at upgrade/billing moments (bundle-based, not price-only).
-Why: Contract sets the ceiling on risk; even at long tenure, M2M never converges to annual churn.
+   - Who: Month-to-Month customers, especially in first 6–12 months.
+   - What: Targeted nudges to 1-year terms at upgrade/billing moments (bundle-based, not price-only).
+   - Why: Contract sets the ceiling on risk; even at long tenure, M2M never converges to annual churn.
 
 2) Grow households, not lines
-
-Who: Solo accounts.
-What: “Add a line” offers (family/partner bundles, small device credits).
-Why: The second line collapses churn into single digits; household LTV jumps even if ARPU/line softens.
+   - Who: Solo accounts.
+   - What: “Add a line” offers (family/partner bundles, small device credits).
+   - Why: The second line collapses churn into single digits; household LTV jumps even if ARPU/line softens.
 
 3) Fix the 5–10GB “no-man’s land”
-
-Who: Users averaging 5–10GB (both plan types).
-What: Introduce a mid-tier or rollover/auto-step-up option; simplify message: “never overpay, never overage.”
-Why: This band is the peak risk across plans.
+   - Who: Users averaging 5–10GB (both plan types).
+   - What: Introduce a mid-tier or rollover/auto-step-up option; simplify message: “never overpay, never overage.”
+   - Why: This band is the peak risk across plans.
 
 4) Right-size Unlimited (stop the mismatch)
-
-Who: Unlimited + <5GB users.
-What: Proactive plan right-sizing outreach; make it positive (“save without losing peace of mind”).
-Why: Unlimited underperforms badly for light users → perceived unfairness.
+   - Who: Unlimited + <5GB users.
+   - What: Proactive plan right-sizing outreach; make it positive (“save without losing peace of mind”).
+   - Why: Unlimited underperforms badly for light users → perceived unfairness.
 
 5) Kill international bill shock
-
-Who: Intl-active customers and hotspot states.
-What: Travel passes/caps, pre-travel texts, in-bill alerts, and post-trip credits rules; make intl fees transparent at signup.
-Why: Intl charges are the largest surprise cost and add ~12pp churn lift.
+   - Who: Intl-active customers and hotspot states.
+   - What: Travel passes/caps, pre-travel texts, in-bill alerts, and post-trip credits rules; make intl fees transparent at signup.
+   - Why: Intl charges are the largest surprise cost and add ~12pp churn lift.
 
 6) Triage repeat-contact customers
-
-Who: ≥3 support calls in 60–90 days.
-What: Auto-route to a save queue, empower agents with small make-goods and plan fixes; track save rate.
-Why: The callers vs. non-callers churn gap is 4–8× in every state.
+   - Who: ≥3 support calls in 60–90 days.
+   - What: Auto-route to a save queue, empower agents with small make-goods and plan fixes; track save rate.
+   - Why: The callers vs. non-callers churn gap is 4–8× in every state.
 
 7) Onboard like it matters (first 90 days)
-
-Who: All new/M2M signups; concierge lane for seniors.
-What: Welcome sequence, bill preview, device/plan setup help, “what to expect” on intl/data.
-Why: Most churn happens early; seniors especially need clarity over complexity.
+   - Who: All new/M2M signups; concierge lane for seniors.
+   - What: Welcome sequence, bill preview, device/plan setup help, “what to expect” on intl/data.
+   - Why: Most churn happens early; seniors especially need clarity over complexity.
 
 8) Payment method hygiene
-
-Who: Paper check and (where risky) direct-debit cohorts.
-What: Incentivize card autopay (rewards, fee waivers); make switching trivial.
-Why: Payment is a strong behavioral proxy for stickiness/contactability.
+   - Who: Paper check and (where risky) direct-debit cohorts.
+   - What: Incentivize card autopay (rewards, fee waivers); make switching trivial.
+   - Why: Payment is a strong behavioral proxy for stickiness/contactability.
 
 9) Compete where it counts
-
-Who: Hotspot states; M2M + solo + Unlimited-light users.
-What: Competitor-parity bundles (offer + device + protection/backup), localized to rival promos.
-Why: Stated reasons are dominated by competitor offers/devices—win the promise, not just the price.
+   - Who: Hotspot states; M2M + solo + Unlimited-light users.
+   - What: Competitor-parity bundles (offer + device + protection/backup), localized to rival promos.
+   - Why: Stated reasons are dominated by competitor offers/devices—win the promise, not just the price.
 
 10) Coach the “moment of truth”
-
-Who: Frontline support.
-What: Train for empathy + first-contact resolution; QA on tone and ownership; small discretionary credits.
-Why: “Attitude of support person” is a top reason; one bad call undoes any pricing story.
+   - Who: Frontline support.
+   - What: Train for empathy + first-contact resolution; QA on tone and ownership; small discretionary credits.
+   - Why: “Attitude of support person” is a top reason; one bad call undoes any pricing story.
 
 ---
 
