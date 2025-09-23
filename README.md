@@ -183,14 +183,14 @@ Bottom line: the map is a mirror for customer mix and experience, not a map of t
 
 ## 🔎 Summary (what’s really driving churn)
 
-Churn is front-loaded: risk is highest in the first months and then decays (survivorship).
-Structure beats demographics: Month-to-Month contracts (~46% churn) and solo lines drive losses; yearly/two-year and group plans are naturally sticky.
-The value gap is clearest for Unlimited (≈32% churn vs ~16% non-Unlimited) and for 5–10GB users (peak risk): plan–usage mismatch + promo chasing.
-International charges (avg ~33.6) dwarf extra data fees (~3.4) → the main “bill shock” culprit.
-Support friction is a huge signal: churners average ~2–3 calls vs ~0.3–0.6 for non-churners (4–8× gap).
-Geography is mix, not destiny: hotspots are states with more intl-active customers + strong local competitors.
-Payment is a proxy: paper check is the riskiest, credit card the safest, direct debit in between.
-Seniors churn more (complexity/upgrade friction), while under-30 cohorts are relatively stable.
+- Front-loaded churn: Risk is highest in the first months, then decays (survivorship effect).
+- Structure beats demographics: Month-to-Month (~46% churn) and solo lines drive losses; yearly/two-year and group plans are naturally sticky.
+- Value gap (Unlimited & usage): Unlimited ≈32% vs non-Unlimited ~16%; 5–10GB users are peak risk → plan–usage mismatch + promo chasing.
+- Bill shock driver: International charges (~33.6) dwarf extra data fees (~3.4).
+- Support friction signal: Churners average ~2–3 calls vs ~0.3–0.6 for non-churners (4–8× gap).
+- Geography = mix, not destiny: Hotspots are states with more intl-active customers plus strong local competitors.
+- Payment as proxy: Paper check is riskiest, credit card safest, direct debit in between.
+- Age effect: Seniors churn more (complexity/upgrade friction); under-30 cohorts are relatively stable.
 
 ---
 
