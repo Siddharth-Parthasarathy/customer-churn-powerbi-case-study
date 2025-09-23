@@ -3,16 +3,14 @@
 This repository contains the final Power BI report built on the Databel churn dataset, plus a story-driven walkthrough of each page.  
 It’s written to be skimmable by execs yet useful for analysts.
 
-- **Report:** `reports/3_5_more_insights_solution.pbix`
-- **Data:** `data/Databel - Data.csv`
-- **Images:** assume screenshots live under `images/` using the filenames shown below (adjust paths if yours differ).
+- **Report:** `Final_Report.pbix`
+- **Data:** `Databel - Data.csv`
 
 ---
 
 ## 🚀 Quick Start
-- Open **`reports/3_5_more_insights_solution.pbix`** in Power BI Desktop (latest recommended).
+- Open **`Final_Report.pbix`** in Power BI Desktop.
 - Use this README to follow the analysis page-by-page.
-- (Optional) Add a `gifs/` folder with short walkthroughs and link them next to the images.
 
 ---
 
