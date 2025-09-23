@@ -37,7 +37,7 @@ It’s written to be skimmable by execs yet useful for analysts.
 8) **Charges × Usage × “Unlimited”** — international vs data charges and usage-plan fit.  
 9) **State Hotspots, Charges & Support** — where intl fees and repeat contacts cluster.
 
-> The analysis below follows the same order. Each section includes a narrative and a quick TL;DR. Replace image paths if your filenames differ.
+> The analysis below follows the same order.
 
 ---
 
