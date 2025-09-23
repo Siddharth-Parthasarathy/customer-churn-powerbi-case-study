@@ -41,7 +41,7 @@ It’s written to be skimmable by execs yet useful for analysts.
 ---
 
 ## 1) Overview & Churn Reasons
-![Overview & Churn Reasons](images/Overview.png)
+![Overview & Churn Reasons](Images/Overview.png)
 
 **Narrative**  
 What jumps out isn’t just the churn level—it’s the shape of churn. The age curve tells a clear story: as customers get older, the likelihood of leaving climbs steadily, even though there are fewer customers in the highest age bands. That means the visible losses in your dashboards are mostly happening in the 30–60 range (because that’s where the people are), but the risk per person quietly spikes after ~60. Two different problems to solve: volume churn in mid-life, rate churn in older cohorts.
@@ -55,7 +55,7 @@ If we translate this into impact: very rough math says the two biggest levers co
 ---
 
 ## 2) Contracts, Groups & Churn
-![Contracts & Groups](images/Contracts_and_Groups.png)
+![Contracts & Groups](Images/Contracts_and_Groups.png)
 
 **Narrative**  
 This page screams one thing: structure beats demographics.
@@ -72,7 +72,7 @@ Translation to impact: If you migrate just 10% of the month-to-month base into 1
 ---
 
 ## 3) Usage × Plan (Unlimited vs Non)
-![Usage vs Unlimited](images/Usage_vs_Unlimited.png)
+![Usage vs Unlimited](Images/Usage_vs_Unlimited.png)
 
 **Narrative**  
 This page is about value fit more than raw usage. Two patterns lock together:
@@ -90,7 +90,7 @@ Unlimited is likely a proxy for other risks. Given earlier pages (M2M contracts,
 ---
 
 ## 4) Geography × International Usage
-![Churn by State & Intl Usage](images/Geo_and_International.png)
+![Churn by State & Intl Usage](Images/Geo_and_International.png)
 
 **Narrative**  
 This page ties place and purpose together. The left matrix shows that customers who are internationally active churn at ~34%, versus ~22% for everyone else—a 12-point lift. That’s not just a pricing story; it reads like complexity + unpredictability: roaming rules, add-ons, and charges that are hard to anticipate.
@@ -108,7 +108,7 @@ The pattern also explains why international usage acts like a risk amplifier rat
 ---
 
 ## 5) Tenure, Contract & Payment Mix
-![Tenure & Contract](images/Tenure_Contract_Payments.png)
+![Tenure & Contract](Images/Tenure_Contract_Payments.png)
 
 **Narrative**  
 The top-left line isn’t just “older customers churn less.” It’s a hazard curve plus survivorship: people most prone to leave exit early, so the population that remains at 12, 24, 36 months is self-selected for stickiness. That’s why risk decays with age even before you change anything—composition shifts as fragile relationships drop out.
@@ -120,7 +120,7 @@ On the right, payment method is doing double duty as a behavioral proxy. The bas
 ---
 
 ### 6) Age & Household Effect
-![Age × Group Size](images/Age_Group_Size.png)
+![Age × Group Size](Images/Age_Group_Size.png)
 
 **What the data is really saying**
 - **Two churn engines:** mid-life (30–50) drives volume because it’s the largest base; risk per person **spikes after ~60**, reaching ~40–60%.
@@ -131,7 +131,7 @@ On the right, payment method is doing double duty as a behavioral proxy. The bas
 
 
 ## 7) Contract Clusters, Tenure & Support
-![Contract × Tenure × Support](images/Contract_Tenure_Scatter.png)
+![Contract × Tenure × Support](Images/Contract_Tenure_Scatter.png)
 
 **Narrative**  
 The scatter splits into two clean clusters:
@@ -147,7 +147,7 @@ The support tiles on the left (6,123 total calls; 0.92 calls/customer on average
 ---
 
 ## 8) Charges × Usage × the “Unlimited” Promise
-![Charges × Usage × Unlimited](images/Charges_Unlimited_Usage.png)
+![Charges × Usage × Unlimited](Images/Charges_Unlimited_Usage.png)
 
 **Narrative**  
 This page explains why “Unlimited” isn’t a cure-all: it solves data overage anxiety, but it doesn’t protect against international charges, which are the real bill-shock driver here.
@@ -165,7 +165,7 @@ Heavy users (≥10GB): churn eases a bit (high-20s) for both plans. Once usage i
 ---
 
 ## 9) State Hotspots, Charges & Support Friction
-![Geo × Charges × Support](images/State_Support_Charges.png)
+![Geo × Charges × Support](Images/State_Support_Charges.png)
 
 **Narrative**  
 What looks regional at first glance is actually behavioral once you peel it back.
