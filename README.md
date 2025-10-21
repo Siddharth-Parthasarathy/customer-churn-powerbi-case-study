@@ -44,140 +44,143 @@ It’s written to be skimmable by execs yet useful for analysts.
 ## 1) Overview & Churn Reasons
 ![Overview & Churn Reasons](Images/Overview.png)
 
-**Narrative**  
-What jumps out isn’t just the churn level—it’s the shape of churn. The age curve tells a clear story: as customers get older, the likelihood of leaving climbs steadily, even though there are fewer customers in the highest age bands. That means the visible losses in your dashboards are mostly happening in the 30–60 range (because that’s where the people are), but the risk per person quietly spikes after ~60. Two different problems to solve: volume churn in mid-life, rate churn in older cohorts.
+Churn isn’t just about how many people leave—it’s who leaves and why. Older customers are more likely to churn, even though there are fewer of them. Most visible losses come from ages 30–60 (because that’s the biggest group), but risk per person jumps after 60. So we face two problems: mid-life customers leaving in large numbers, and seniors leaving at a higher rate.
 
-The “why” is split between external pull and internal push. The top stated reasons cluster around competitive pull (better offers/devices/speeds/data) and experience push (support attitude). That’s a powerful combination: competitors are winning the promise (price/value/device) while we’re losing the moment (how customers feel after an interaction). Notice that “price too high” is not the top villain—price framing and offer packaging seem to matter more than raw price; people leave when a rival makes the choice easy and our service interaction doesn’t convince them to stay.
+People leave for two main reasons: competitors pulling them (better offers, devices, or value) and our own experience pushing them away (poor support interactions). It’s not mainly about high prices—it’s about how offers are framed and how customers feel after contact.
 
-Senior customers churn much more than under-30s. That likely isn’t just about age; it hints at device upgrade friction, plan complexity, and support experience not being tailored to what seniors need (plain language, setup help, fewer surprises). Meanwhile, the “Don’t know” bucket is big enough to matter—classic sign of passive churn (no single smoking gun, just death by small frictions). Those customers are perfect targets for a fast, low-friction “stay” offer and a concierge-style check-in.
+Seniors churn more likely due to confusing plans, upgrade issues, and less-friendly support. The big “Don’t know” group shows passive churn—small annoyances adding up. They’re great candidates for simple “stay” offers or personal follow-ups.
 
-If we translate this into impact: very rough math says the two biggest levers could be sizeable even with modest improvements. If ~a third of churn is competitive and we win back just 10% of those at-risk cases, that’s about 61 customers saved. If we cut service-attitude churn by 30% through coaching/QA and empowered make-goods, that’s another ~59 saves. Directionally, ~120 saves across these two levers alone (back-of-envelope on this page’s mix) is realistic—and that compounds month after month.
+Fixing just two levers could save ~120 customers: winning back 10% of those lost to competitors (~61 saves) and improving service attitude to cut that churn by 30% (~59 saves). These gains would build over time.
 
 ---
 
 ## 2) Contracts, Groups & Churn
 ![Contracts & Groups](Images/Contracts_and_Groups.png)
 
-**Narrative**  
-This page screams one thing: structure beats demographics.
-Two structural choices—contract and group size—explain the churn story far more than who the customer is.
+Churn isn’t about who the customer is—it’s about how they’re set up. Two things matter most: contract type and group size.
 
-Group size is a retention engine. Solo lines pay the most per month, but they’re the ones leaving. As soon as a customer adds even one extra line, churn collapses into single digits and stays low as the group grows. Yes, ARPU per line softens, but the household LTV jumps because you’re keeping multiple lines for much longer. The playbook here isn’t “discount more,” it’s “get the second line on the account”—once that happens, the exit door practically closes.
+Customers with multiple lines rarely leave. Single-line users pay more but churn the most. Adding just one extra line drops churn to single digits and boosts total lifetime value. The goal isn’t bigger discounts—it’s getting that second line on the account.
 
-Contract choice dwarfs everything else. Month-to-month sits around ~46% churn, yearly around ~7%—and that pattern holds across genders. In other words, who the customer is matters less than what they signed. The donut shows over half the base is still month-to-month, which explains the overall churn level: we’re weighted toward the riskiest contract.
+Contract type has the biggest impact. Month-to-month customers churn around 46%, while yearly ones are only about 7%. Since over half the base is still month-to-month, that explains most of the overall churn.
 
-Why people say they leave backs this up. Nearly half of stated churn is “competitor” (offers/devices), while price alone is a minority slice. That’s classic “value packaging” vs. raw cost: rivals make the decision effortless (bundle + device), and our month-to-month solos are easiest to poach.
+Most leavers mention competitor offers, not pure price—rivals make switching easy with bundles and devices, especially for solo, month-to-month users.
 
-Translation to impact: If you migrate just 10% of the month-to-month base into 1-year terms, you shift ~341 customers from a ~46% risk to ~11–7%. That’s ~120 fewer churned customers on that move alone—before any group-plan effect.
+If just 10% of those month-to-month customers moved to 1-year contracts, around 120 fewer people would churn, even before adding the group-plan benefit.
 
 ---
 
 ## 3) Usage × Plan (Unlimited vs Non)
 ![Usage vs Unlimited](Images/Usage_vs_Unlimited.png)
 
-**Narrative**  
-This page is about value fit more than raw usage. Two patterns lock together:
+Churn here is about value fit, not just how much people use.
 
-Unlimited is carrying the churn mix. ~67% of customers are on Unlimited and they churn at ~32%, roughly double the non-Unlimited rate (~16%). Even before looking at usage, that plan choice alone explains why total churn sits near 27%.
+Most churn comes from Unlimited plan customers—they make up ~67% of users and churn around 32%, about double the rate of non-Unlimited plans (~16%). That alone explains why total churn is near 27%.
 
-The danger zone is the middle. Across both plan types, 5–10GB users churn the most (~33–35%). It’s the no-man’s land: limited plans risk bill shock from occasional overages, while Unlimited can feel overpriced because usage isn’t high enough to justify the premium. Either way, perceived value is weak.
+The highest-risk group is mid-usage (5–10GB) customers. They churn ~33–35% because they sit in the middle: limited plans feel risky (overage worries), while Unlimited feels too expensive for what they use.
 
-Light users tell the clearest story. Customers using <5GB churn very low on non-Unlimited (~12–13%) but very high on Unlimited (~35%). That’s classic plan mismatch—paying for capacity you don’t need erodes perceived fairness and invites switching.
+Light users (<5GB) stay loyal on non-Unlimited (~12–13%) but leave fast on Unlimited (~35%)—a clear sign of plan mismatch and poor value perception.
 
-Heavy users are not the highest risk. At ≥10GB, churn is a touch lower than the 5–10GB band for both plan types (~28–30%). Once usage is genuinely high, the Unlimited premium feels justified, which steadies churn—even if competitors dangle offers.
+Heavy users (10GB+) churn less (~28–30%) since the Unlimited premium makes sense for them.
 
-Unlimited is likely a proxy for other risks. Given earlier pages (M2M contracts, competitive poaching), Unlimited probably over-indexes on month-to-month and promo-chasing cohorts, amplifying churn independent of usage.
+Overall, Unlimited likely signals other churn risks too—like month-to-month contracts or promo-chasing habits—so it’s not just about data use but customer type and expectations.
 
 ---
 
 ## 4) Geography × International Usage
 ![Churn by State & Intl Usage](Images/Geo_and_International.png)
 
-**Narrative**  
-This page ties place and purpose together. The left matrix shows that customers who are internationally active churn at ~34%, versus ~22% for everyone else—a 12-point lift. That’s not just a pricing story; it reads like complexity + unpredictability: roaming rules, add-ons, and charges that are hard to anticipate.
+Customers who use their phones internationally churn around 34%, versus 22% for others—a 12-point jump. This isn’t just about price; it’s about complex and unpredictable experiences with roaming, add-ons, and surprise charges.
 
-On the map, most states sit in a steady green band, but a handful of outliers light up with higher churn. Those hotspots are where two forces likely overlap:
+On the map, most states look stable, but a few hotspots stand out. Those areas likely mix two churn drivers:
 
-Competitive intensity (a local carrier with a sharper offer or device program), and
+1. Strong local competitors with better device or plan offers
 
-Travel-heavy profiles (more international usage, more chance of confusion or surprise fees).
+2. More travel-heavy users who face higher confusion or unexpected costs
 
-Put differently: churn is highest where the need for flexible, cross-border usage meets a rival who packages that promise more clearly. Notice how the scatter isn’t just coastal vs inland; it’s pockets—suggesting local competitors and regional network perception matter as much as national pricing.
+In short, churn peaks where cross-border needs meet clearer rival offers. It’s not a simple coastal vs inland story—local competition and perception matter more than national averages.
 
-The pattern also explains why international usage acts like a risk amplifier rather than a universal problem. In most states the baseline stays tame; it’s when the international-active mix is higher and a strong competitor is present that churn spikes. That’s why statewide averages can be misleading—local mix effects drive the red bubbles.
+International usage isn’t risky everywhere; it just amplifies churn when combined with strong local rivals and complex pricing. That’s why state averages can hide the real problem—local mix effects create the red hotspots.
 
 ---
 
 ## 5) Tenure, Contract & Payment Mix
 ![Tenure & Contract](Images/Tenure_Contract_Payments.png)
 
-**Narrative**  
-The top-left line isn’t just “older customers churn less.” It’s a hazard curve plus survivorship: people most prone to leave exit early, so the population that remains at 12, 24, 36 months is self-selected for stickiness. That’s why risk decays with age even before you change anything—composition shifts as fragile relationships drop out.
+The curve doesn’t just show that older customers churn less—it shows survivorship. People most likely to leave do so early, so the ones who stay longer are naturally more loyal. That’s why churn risk drops over time, even without any intervention.
 
-Overlaying contract type shows how structure gates risk. The dashed trends tell us the ceiling on churn is set at sign-up: month-to-month never converges to the annual/two-year bands, even late in life. You can “earn down” risk with time, but only inside the lane the contract gives you. The jitter on the month-to-month series (vs the flat two-year floor) hints at anniversary effects and promo cliffs—periodic bumps where a subset re-evaluates and defects.
+Contract type sets the limits of that risk. Month-to-month customers always churn more than annual or two-year ones, no matter how long they’ve been around. You can reduce churn within a contract, but you can’t cross the gap created by structure. The small bumps in month-to-month churn suggest anniversary or promo effects—points where customers stop to reconsider.
 
-On the right, payment method is doing double duty as a behavioral proxy. The base skews to Direct Debit (~55%), then Credit Card (~39%), with a small Paper Check (~5–6%) tail. In this dataset, checks carry the highest churn and credit cards the lowest. That’s less about the instrument and more about the customer archetype behind it: paper checks often correlate with lower digital engagement and more friction; credit-card users tend to be overrepresented in self-serve, high-contactability cohorts. So payment isn’t causal, but it’s a useful signal for propensity.
+Payment method reflects behavior more than cause.
+
+Most use Direct Debit (~55%), then Credit Card (~39%), and a small group still use Paper Checks (~5–6%).
+
+Check users churn most, credit-card users least, mainly because checks link to lower digital engagement, while card users are more self-serve and easy to reach.
+
+Payment type isn’t driving churn—but it’s a strong signal of customer engagement.
 
 ---
 
 ### 6) Age & Household Effect
 ![Age × Group Size](Images/Age_Group_Size.png)
 
-**What the data is really saying**
-- **Two churn engines:** mid-life (30–50) drives volume because it’s the largest base; risk per person **spikes after ~60**, reaching ~40–60%.
-- **Not just tenure:** filtering by Account Length keeps the late-life slope, so the age effect isn’t only a survivorship artifact.
-- **Solo premium vs. household lock-in:** group size **0** has the highest per-line charge **and** the highest churn; at **2+ lines**, churn **drops into single digits** and stays low while per-line charges stabilize.
+• Two churn engines: Mid-life (30–50) drives churn volume because it’s the largest group, while risk per person spikes after ~60, reaching 40–60%.
 
-*TL;DR: mid-life ages create most losses by sheer size; seniors carry the highest personal risk; forming a household flips churn from high to single-digit.*
+• Not just tenure: Even when filtered by account length, the late-life churn slope remains—so the age effect is real, not just a survivorship artifact.
+
+• Solo premium vs. household lock-in: Single-line accounts pay the most per line and churn the most; at 2+ lines, churn drops to single digits and stays low while per-line charges stabilize.
+
 
 
 ## 7) Contract Clusters, Tenure & Support
 ![Contract × Tenure × Support](Images/Contract_Tenure_Scatter.png)
 
-**Narrative**  
-The scatter splits into two clean clusters:
+The scatter shows two clear clusters:
 
-On the left, Monthly customers: short average tenure (single-digit to teens, in months) and high churn (roughly 30–60%).
+Monthly customers: short tenure (under ~20 months) and high churn (30–60%).
 
-On the right, Yearly customers: longer tenure (mid-30s to ~50 months) and low churn (≈5–10%).
+Yearly customers: longer tenure (35–50 months) and low churn (5–10%).
 
-Payment method is present as a slicer, but within each contract cluster the points sit close together—contract category dominates; payment method only fine-tunes risk at the margins.
+Contract type drives the pattern—payment method only makes small differences within each group.
 
-The support tiles on the left (6,123 total calls; 0.92 calls/customer on average) add an important wrinkle: support contacts are sparse on average, so the overall hazard you see here is not driven by frequent interactions. That fits the broader story: churn is front-loaded (newer, M2M customers) and structural (contract choice), with a fat-tail of high-call customers who are few in number but extremely at risk. In other words, the average hides the tail.
+Support data adds context: 6,123 total calls (~0.9 per customer) means most people rarely contact support, so churn isn’t caused by frequent interactions. Instead, it’s structural and front-loaded—mainly new, month-to-month customers.
+
+A small group of high-contact customers make many calls and churn at very high rates. The average hides this risky tail.
 
 ---
 
 ## 8) Charges × Usage × the “Unlimited” Promise
 ![Charges × Usage × Unlimited](Images/Charges_Unlimited_Usage.png)
 
-**Narrative**  
-This page explains why “Unlimited” isn’t a cure-all: it solves data overage anxiety, but it doesn’t protect against international charges, which are the real bill-shock driver here.
+“Unlimited” isn’t a full safety net—it removes data overage worry, but not international fee shocks, which are the real churn driver.
 
-On the left, the single most telling cue is the scale difference: average extra international charges (~33.6) are an order of magnitude larger than extra data charges (~3.4). In other words, when customers are surprised by their bill, it’s far more likely to be from international activity than from domestic data.
+The difference is huge: average extra international charges (~$33.6) are about 10× higher than extra data charges (~$3.4). So when bills surprise people, it’s usually from international use, not domestic data.
 
-Overlay that with the usage × plan matrix and the picture clicks into place:
+Looking at usage and plan type:
 
-Light users (<5GB): they barely use data, yet Unlimited posts very high churn (~35%) while non-Unlimited is low (~12–13%). That’s classic value mismatch—paying a premium and still being exposed to international fees makes the “Unlimited” promise feel hollow.
+• Light users (<5GB): Hardly use data, yet Unlimited churns ~35% vs ~12–13% for limited plans — clear value mismatch.
 
-Mid users (5–10GB): churn peaks for both plan types (~33–35%). It’s the gray zone—too much usage for the cheapest limited plans (risking occasional fees), but not enough to feel the Unlimited premium is worth it. Perceived value is weakest here.
+• Mid users (5–10GB): Churn peaks (~33–35%) for both plans—too much for limited, not enough to justify Unlimited.
 
-Heavy users (≥10GB): churn eases a bit (high-20s) for both plans. Once usage is genuinely high, the Unlimited price/benefit story finally makes intuitive sense, so dissatisfaction tapers—even though international charges can still sting.
+• Heavy users (≥10GB): Churn drops (high-20s) since the Unlimited premium finally feels worth it, though international fees still hurt.
 
 ---
 
 ## 9) State Hotspots, Charges & Support Friction
 ![Geo × Charges × Support](Images/State_Support_Charges.png)
 
-**Narrative**  
-What looks regional at first glance is actually behavioral once you peel it back.
+What looks like a regional churn pattern is really behavioral.
 
-The map shows a few state hotspots, but the line chart underneath tells you why those bubbles appear: churned customers log 2–3 support calls on average in almost every state, while non-churners hover around ~0.3–0.6. That 4–8× gap is consistent across the map. In other words, churn isn’t a coastal vs. inland story; it’s a “many calls → high risk” story that happens to cluster where there are more of those customers.
+The map shows hotspots, but the line chart explains them:
 
-The tiles on the left put a price tag on that friction. The typical bill surprise is international, not data (avg extra international charges ≈ 33.6 vs data ≈ 3.4). When you combine unpredictable fees with multiple contact attempts, you get the exact states that light up red: places with a higher mix of internationally active users and spiky support demand.
+• Churned customers make 2–3 support calls on average per state.
 
-Notice how flat the non-churner call line is across states. Retained customers look the same everywhere: they rarely call. That’s the systemic signal here—the geography doesn’t change the pattern, it changes the mix (how many international travelers and high-friction cases you have).
+• Non-churners make only 0.3–0.6 calls.
+That’s a 4–8× difference, consistent everywhere. So churn isn’t about location—it’s about frequent support contact.
 
-Bottom line: the map is a mirror for customer mix and experience, not a map of the network itself. Where international bill shock and repeat contacts concentrate, churn follows.
+The cost of that friction shows up in the tiles: international bill surprises (~$33.6) are much higher than data overages (~$3.4). States that “glow red” are those with more international users and more repeat support calls.
+
+The non-churner call line is flat across states—steady and low. Geography doesn’t cause churn; it just changes the mix of high-friction, travel-heavy customers.
+
 
 ---
 
@@ -246,17 +249,3 @@ Bottom line: the map is a mirror for customer mix and experience, not a map of t
    - Why: “Attitude of support person” is a top reason; one bad call undoes any pricing story.
 
 ---
-
-## 📏 Metrics to Track
-- Churn %% overall and by **contract, group size, usage band, intl-active**.  
-- **Contract mix** (M2M→annual/two-year), **group penetration** (solo→group).  
-- **Unlimited mismatch rate** (% Unlimited users <5GB).  
-- **Intl fee incidence & average** (alerts sent, passes adopted, credits used).  
-- **High-call cohort size & save rate** (≥3 calls).  
-- **First-90-day churn**, **time-to-first-contact**.  
-- **Payment mix shift** (% on card autopay).  
-- **Support QA** (FCR, CSAT/NPS on save calls).
-
----
-
-Bottom line: Cut churn by shifting Month-to-Month (M2M) customers to 1-year plans, converting single-line accounts into group plans, right-sizing “Unlimited” for low-usage customers, capping/clearly explaining international fees, and jumping fast on repeat support callers.
