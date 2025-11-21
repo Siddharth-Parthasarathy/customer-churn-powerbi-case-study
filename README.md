@@ -8,12 +8,6 @@ It’s written to be skimmable by execs yet useful for analysts.
 
 ---
 
-## 🚀 Quick Start
-- Open **`Final_Report.pbix`** in Power BI Desktop.
-- Use this README to follow the analysis page-by-page.
-
----
-
 ## 🔑 Executive Insights
 - Churn is **front-loaded**: highest in the first few months, then steadily declines (survivorship).
 - **Structure beats demographics**: **Month-to-Month** contracts (~46%) and **solo lines** drive most losses; **yearly/two-year** and **group plans** are naturally sticky.
