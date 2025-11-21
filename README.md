@@ -26,21 +26,6 @@ It’s written to be skimmable by execs yet useful for analysts.
 
 ---
 
-## 🧭 Report Structure (pages)
-1) **Overview & Churn Reasons** — KPIs, age distribution, and reason codes.  
-2) **Contracts, Groups & Churn** — contract categories, group size, churn categories.  
-3) **Usage × Plan** — Unlimited vs non-Unlimited across usage bands.  
-4) **Geography × International** — churn by state + international activity.  
-5) **Tenure, Contract & Payment Mix** — hazard curve, contract overlays, payment share.
-6) **Age & Household effect** — churn rate and customer volume by age
-7) **Contract Clusters, Tenure & Support** — scatter of tenure vs churn by contract; support volume.  
-8) **Charges × Usage × “Unlimited”** — international vs data charges and usage-plan fit.  
-9) **State Hotspots, Charges & Support** — where intl fees and repeat contacts cluster.
-
-> The analysis below follows the same order.
-
----
-
 ## 1) Overview & Churn Reasons
 ![Overview & Churn Reasons](Images/Overview.png)
 
